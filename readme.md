@@ -8,6 +8,7 @@ prevented the bank from losing the capital amount using machine learning algorit
 The dataset has total 601 observations and 11 predictors. We have one target variable (binary variable) which tells us if the customer has paid back loan or not. The dataset is obtained from Kaggle.com.
 
 **Procedure:**
+I have done the analysis using **tidymodels** library in R.
 I have used upsampling in order to have a balanced dataset. I had very few missing values and hence I deleted it from my dataset.
 I have normalized all the numeric variables.
 I have used KNN and Decision tree algorithm using tidymodels in R. 
